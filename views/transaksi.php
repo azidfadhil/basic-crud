@@ -85,7 +85,7 @@
             <a href="../views/edit-transaksi.php?id=<?= $t['id'] ?>" class="btn btn-sm btn-warning mx-1" title="Edit Data">
               <i class="fa-solid fa-pen-to-square"></i>
             </a>
-            <a href="#" class="btn btn-sm btn-danger mx-1" title="Hapus Data">
+            <a onclick="return confirm('Apakah Anda yakin ingin menghapus data yang dipilih?')" href="../backend/action-delete-transaksi.php" class="btn btn-sm btn-danger mx-1" title="Hapus Data">
               <i class="fa-solid fa-trash"></i>
             </a>
           </td>

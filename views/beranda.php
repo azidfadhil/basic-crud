@@ -36,10 +36,10 @@
         </a>
       </div>
       <div class="col-lg-6 col-sm-12 mb-4">
-        <a href="" class="btn btn-danger w-100 p-4">
+        <button class="btn btn-danger w-100 p-4" disabled>
           <span class="fa-solid fa-file-lines mb-4 mt-2" style="font-size: 5rem;"></span>
           <h3>Laporan</h3>
-        </a>
+        </button>
       </div>
     </div>
   </div>

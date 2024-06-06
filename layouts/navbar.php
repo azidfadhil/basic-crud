@@ -19,7 +19,7 @@
           <a class="nav-link <?php if(strpos($_SERVER['REQUEST_URI'], "transaksi") !== false) { echo "active"; } ?>" href="../views/transaksi.php">Transaksi</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link disabled dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Laporan
           </a>
           <ul class="dropdown-menu">
